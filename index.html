@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armageddon - O Filme</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Armageddon</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#atracoes">Atrações</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>O fim estava próximo. Mas heróis também nascem da adversidade.</h2>
+            <p>Um time improvável é reunido para enfrentar o impossível. Em meio ao
+                caos, nasce uma das maiores histórias de bravura já contadas.</p>
+            <button class="btn-hero" onclick="scrollToSection('atracoes')">Saiba mais</button>
+        </section>
+
+        <section id="atracoes" class="atracoes">
+            <h2>Atrações do Filme</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/img/missao_espacial.jpg" alt="Missão Espacial">
+                    <h3>A Missão Espacial</h3>
+                    <p>A operação de perfuração no asteroide. Uma corrida contra o tempo onde qualquer erro pode custar
+                        a vida de todos e o futuro da Terra.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/equipe_perfuradores.jpg" alt="Equipe de Perfuradores">
+                    <h3>A Equipe de Perfuradores</h3>
+                    <p>Um grupo de trabalhadores rústicos, imprevisíveis e corajosos. Engenheiros, mecânicos e
+                        sonhadores levados ao espaço como última esperança da humanidade.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/nasa_acao.jpg" alt="NASA em Ação">
+                    <h3>NASA em Ação</h3>
+                    <p>A agência espacial americana lidera a ofensiva contra o desastre global. Inteligência, estratégia
+                        e sacrifícios militares se unem em uma batalha tecnológica contra a extinção.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/decisao_final.jpg" alt="Decisão Final">
+                    <h3>A Decisão Final</h3>
+                    <p>Um momento de pura tensão onde um único homem deve escolher entre voltar para casa ou salvar o
+                        mundo. O ápice emocional do filme.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/trilha_sonora.jpg" alt="Trilha Sonora Épica">
+                    <h3>Trilha Sonora Épica</h3>
+                    <p>Embala por “I Don’t Want to Miss a Thing” do Aerosmith, a trilha sonora do filme se tornou um
+                        ícone das produções de ação romântica.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img/explosoes_espaciais.jpg" alt="Explosões Espaciais">
+                    <h3>Explosões Espaciais</h3>
+                    <p>Efeitos especiais grandiosos que marcaram época. A destruição do asteroide em pleno espaço é um
+                        dos clímax visuais do cinema dos anos 90.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="planos" class="planos">
+            <h2>Escolha seu plano de acesso</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Plano Básico</h3>
+                    <p>Acesso ao filme completo em qualidade HD. Assista online sempre que quiser.</p>
+                    <button class="btn-plano">Assinar</button>
+                </div>
+                <div class="card">
+                    <h3>Plano Colecionador</h3>
+                    <p>Inclui o filme em Blu-Ray + making-of + pôster exclusivo digital.</p>
+                    <button class="btn-plano">Assinar</button>
+                </div>
+                <div class="card">
+                    <h3>Plano Premium Fã</h3>
+                    <p>Tudo do plano colecionador + trilha sonora original + e-book com bastidores.</p>
+                    <button class="btn-plano">Assinar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="conteudo-img-texto">
+            <div class="conteudo">
+                <h2>Uma missão impossível... baseada na esperança</h2>
+                <p>"Armageddon" não é apenas um filme de ação espacial.
+                    É uma poderosa narrativa sobre sacrifício e coragem,
+                    destacando a força das conexões humanas em momentos
+                    de crise extrema. Enquanto um asteroide colossal
+                    ameaça a existência da Terra, uma equipe improvável
+                    de heróis comuns assume uma missão desesperada, arriscando
+                    tudo para proteger seus entes queridos e a humanidade.
+                    Esta história nos lembra que a verdadeira bravura reside
+                    em pessoas comuns, que se erguem diante da adversidade para fazer a diferença.</p>
+            </div>
+            <div class="imagem">
+                <img src="assets/img/filme.jpg" alt="Equipe se preparando para a missão">
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <button class="faq-question">Como posso acessar o filme?</button>
+                <div class="faq-answer">
+                    <p>Você pode acessar o filme ao assinar um dos planos disponíveis na seção Planos.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Posso cancelar minha assinatura a qualquer momento?</button>
+                <div class="faq-answer">
+                    <p>Sim, o cancelamento pode ser feito a qualquer momento sem taxas adicionais.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Quais métodos de pagamento são aceitos?</button>
+                <div class="faq-answer">
+                    <p>Aceitamos cartões de crédito, débito e PayPal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post" class="form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" maxlength="500" required></textarea>
+
+                <button type="submit" class="btn-contato">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 - Projeto fictício baseado no filme Armagedom.</p>
+    </footer>
+
+    <button id="btnTop" title="Voltar ao topo" aria-label="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
